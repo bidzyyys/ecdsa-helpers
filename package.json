@@ -1,0 +1,22 @@
+{
+  "name": "ecdsa",
+  "version": "1.0.0",
+  "description": "Helper script for playing with ECDSA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bidzyyys/ecdsa-helpers.git"
+  },
+  "keywords": [
+    "ECDSA"
+  ],
+  "author": "Daniel Bigos (@bidzyyys)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bidzyyys/ecdsa-helpers/issues"
+  },
+  "homepage": "https://github.com/bidzyyys/ecdsa-helpers#readme"
+}
