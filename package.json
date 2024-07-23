@@ -1,6 +1,7 @@
 {
   "name": "ecdsa",
   "version": "1.0.0",
+  "type": "module",
   "description": "Helper script for playing with ECDSA",
   "main": "index.js",
   "scripts": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/bidzyyys/ecdsa-helpers/issues"
   },
-  "homepage": "https://github.com/bidzyyys/ecdsa-helpers#readme"
+  "homepage": "https://github.com/bidzyyys/ecdsa-helpers#readme",
+  "dependencies": {
+    "ethers": "^5.7"
+  }
 }
