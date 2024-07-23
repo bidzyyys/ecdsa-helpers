@@ -1,12 +1,13 @@
 import { Wallet, ethers } from 'ethers';
 
-const message = "Hello World";
 
-let wallet = Wallet.createRandom();
+let wallet = new Wallet("ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80");
 
 let address = await wallet.getAddress();
-
 console.log("Wallet address: " + address);
+console.log("Private key: " + wallet.privateKey);
+
+const message = "Hello World";
 
 let hash = ethers.utils.hashMessage(message);
 console.log("Hash: " + hash);
